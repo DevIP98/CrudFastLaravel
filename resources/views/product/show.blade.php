@@ -11,21 +11,21 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">{{ __('Show') }} Product</span>
+                            <span class="card-title">{{ __('Informacion del') }} Producto</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('products.index') }}"> {{ __('Back') }}</a>
+                            <a class="btn btn-primary" href="{{ route('products.index') }}"> {{ __('Regresar') }}</a>
                         </div>
                     </div>
 
                     <div class="card-body">
                         
                         <div class="form-group">
-                            <strong>Description:</strong>
+                            <strong>Descripcion:</strong>
                             {{ $product->description }}
                         </div>
                         <div class="form-group">
-                            <strong>Price:</strong>
+                            <strong>Precio:</strong>
                             {{ $product->price }}
                         </div>
                         <div class="form-group">
